@@ -2,7 +2,7 @@ let username;
 let userresult;
 username = prompt("お名前を教えて下さい。");
 document.getElementById("name").innerHTML = username;
- if (username == "") {
+if (username == "") {
     document.getElementById("name").innerHTML = "名無し";
 } 
 
@@ -22,4 +22,4 @@ if (rand == 3) {
 if (rand == 4) {
     userresult = "凶";
 }
- document.getElementById("result").innerHTML = userresult;
+document.getElementById("result").innerHTML = userresult;
